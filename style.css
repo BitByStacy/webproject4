@@ -9,36 +9,37 @@ line-height: 1.6;
 text-align: left;
 background-color:antiquewhite;
 color: black;
-margin: 10em;
-padding: 20em;
+margin: 1em;
+padding: 2em;
 
 }
 
 header {
     background-color: lightgray;
-    padding: 3em;
+    padding: 1em;
     text-align: center;
     color: navy;
-    font-weight: bold
+    font-weight: bold;
 }
  
     a:hover {
-        color: red
+        color: red;
     }
 
 main{
     max-width: 40em;
-    margin:20px auto
-    padding 2em 0;
+    margin:2em auto;
+    padding: 2em 0;
 }
 
 article h2{
     color:navy
-    margin-top 1em;
+        margin-top 1em;
 }
+
 p{
     line-height: 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 1em;}
     
     .float-right{
         float:right;
@@ -52,7 +53,7 @@ p{
         display:table;
         clear:both;
     }
-}
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -65,23 +66,35 @@ nav ul{
 }
 nav ul li a {
     text-decoration: none;
-    color:black
+    color:black;
 }
 
 img.float-left{
-    Float:left;
+    float: left;
     margin: 0 1em 1em 0;
-    max-width: 40%
+    max-width: 40%;
+}
+
+.start-adventure{
+    text-align-last: center;
 }
 
 footer{
  background-color: lightgray;
 color: navy;
-text-align-last: center;
+text-align:center;
 padding: 2em 0;
-    border-top:1px solid gray
+border-top:1px solid gray;
 }
 footer a hover,
 footer a:focus{
     color:red;
+}
+section h3{
+    color:navy;
+    margin-top:2em;
+}
+section p{
+    font-size: 1em;
+    line-height: 1.4;
 }
