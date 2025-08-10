@@ -1,0 +1,87 @@
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;   
+    
+line-height: 1.6;
+text-align: left;
+background-color:antiquewhite;
+color: black;
+margin: 10em;
+padding: 20em;
+
+}
+
+header {
+    background-color: lightgray;
+    padding: 3em;
+    text-align: center;
+    color: navy;
+    font-weight: bold
+}
+ 
+    a:hover {
+        color: red
+    }
+
+main{
+    max-width: 40em;
+    margin:20px auto
+    padding 2em 0;
+}
+
+article h2{
+    color:navy
+    margin-top 1em;
+}
+p{
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    
+    .float-right{
+        float:right;
+        margin: 0 0 1em 1em;
+        max-width:40%;
+        border: 2px solid gray;
+    }
+    
+    article:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 0.5em;
+    margin: 0;
+    list-style: none;
+    background-color: lightgray;
+    border-top: 2px solid gray;
+}
+nav ul li a {
+    text-decoration: none;
+    color:black
+}
+
+img.float-left{
+    Float:left;
+    margin: 0 1em 1em 0;
+    max-width: 40%
+}
+
+footer{
+ background-color: lightgray;
+color: navy;
+text-align-last: center;
+padding: 2em 0;
+    border-top:1px solid gray
+}
+footer a hover,
+footer a:focus{
+    color:red;
+}
